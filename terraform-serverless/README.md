@@ -14,6 +14,7 @@ To deploy using Terraform:
 
     ```
     gcloud builds submit
+    gcloud config set project VALUE
     ```
 
   * Initialize and apply the Terraform manifests: 
